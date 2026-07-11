@@ -2,4 +2,5 @@ AI Prompt - this is a section of a website page (the website is about developer 
 
 
 
-(Optional) - Reason Why 1 commit - at first i created a repo then a folder created with the same name then wrote the full tag and css of the assignment then did git init and oters
+(Optional) - Reason Why 1 commit - at first i created a repo then a folder created with the same name then wrote the full tag and css of the assignment then did git init and oters , also Ididn't notice the part that was on the video (minimum 5 commits)
+pardon my mistake!
