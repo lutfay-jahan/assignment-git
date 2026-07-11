@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: inter ;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: white;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* MENU */
+.menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    color: rgb(47, 45, 45);
+}
+
+/* BUTTON */
+.regifirstbtn {
+    background-color: #1642f3;
+    color: white;
+    border: none;
+    padding: 13px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.hero {
+    height: 712px;
+    background: url("./assets/banner.jpg");
+    position: relative;
+}
+.banner{
+     display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center; 
+}
+
+.banner h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 85px;
+}
+p{
+    font-family: Inter;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+text-align: center;
+font-size: 25px;
+ max-width: 800px;
+ line-height: 1.5; 
+text-align: center;
+margin: 0 auto;
+}
+.bannerbtn {
+    background-color: #1642f3;   
+    color: white;
+    padding: 17px 30px;         
+    border: none;
+    border-radius: 8px;         
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  font-size: 25px;
+margin-top: 250px;
+}
+.speakers {
+    padding: 60px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.speakers h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.speaker-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.piccard {
+    background: rgb(237, 232, 232);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    border: 0.5px white;
+    justify-content: flex-start;
+}
+
+.piccard img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.pic-card-content {
+    padding: 20px;
+}
+
+
+
+.pic-card-content h3 {
+    margin: 10px 0 5px;
+}
+
+.pic-card-content p {
+    color: gray;
+display: flex;
+justify-content: flex-start;
+font-size: 15px;
+}
+.pricing {
+    padding: 80px 20px;
+    text-align: center;
+    background: #ffffff;
+    font-family: inter ;
+}
+
+.pricing h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: gray;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+/* GRID */
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1100px;
+    margin: auto;
+   
+}
+
+/* CARD */
+.price-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: left;
+     border: 0.9px solid rgb(222, 222, 222);
+    border-radius: 10px;
+}
+
+.price-card h4 {
+    color: gray;
+    font-size: 14px;
+}
+
+.price-card h1 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.small {
+    color: gray;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+}
+hr{
+    color: rgb(236, 236, 236);
+}
+.price-card ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.price-card li {
+    margin-bottom: 10px;
+}
+
+
+.btn-out {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border: 1.5px solid #3b5bdb;
+    border-radius: 8px;
+    color: #3b5bdb;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #3b5bdb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-outline {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border: 1.9px solid #656565;
+    border-radius: 8px;
+    color: #1a1a1b;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+.pro {
+    background: #0f172a;
+    color: white;
+    transform: scale(1.05);
+}
+
+.pro .small {
+    color: #ccc;
+}
+
+.pro h4 {
+    color: #60a5fa;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f0f1a;
+}
+
+/* SECTION */
+.path-section {
+  text-align: center;
+  padding: 80px 20px;
+  color: white;
+  background: linear-gradient(135deg, #0f0f1a, #1a1a40);
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  color: #aaa;
+}
+
+/* HIDE RADIO */
+input[type="radio"] {
+  display: none;
+}
+
+/* BUTTONS */
+.buttons {
+  margin: 30px 0;
+}
+
+.buttons label {
+  padding: 12px 25px;
+  margin: 10px;
+  border-radius: 30px;
+  background: #222;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttons label:hover {
+  background: #444;
+}
+
+/* CARDS */
+.cards {
+  position: relative;
+  height: 200px;
+  max-width: 500px;
+  margin: auto;
+}
+
+/* COMMON CARD */
+.card {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s;
+  box-shadow: 0 0 20px rgba(123,92,255,0.3);
+  top: 15px;
+}
+
+/* SHOW BASED ON SELECTED */
+#dev:checked ~ .cards .dev,
+#founder:checked ~ .cards .founder,
+#designer:checked ~ .cards .designer {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* CTA */
+.cta {
+  margin-top: 40px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border:none;
+  background: linear-gradient(45deg, #7b5cff, #00d4ff);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.footer {
+    background: #0f172a;
+    color: white;
+    padding: 40px 80px;
+}
+
+/* Top section */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Icons */
+.social-icons a {
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.social-icons a:hover {
+    color: #38bdf8;
+}
+
+/* Divider */
+.footer hr {
+    margin: 25px 0;
+    border: none;
+    border-top: 1px solid #334155;
+}
+
+/* Bottom text */
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: #94a3b8;
+}

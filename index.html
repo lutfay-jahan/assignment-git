@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="navbar">
+    <div class="logo">
+   <img src="./assets/logo.png" alt="logo">
+        </div>
+   
+
+    <nav class="menu">
+        <a href="#">Speakers</a>
+        <a href="#">Schedule</a>
+        <a href="#">Tracks</a>
+        <a href="#">Venue</a>
+        <a href="#">Blog</a>
+    </nav>
+
+    <button class="regifirstbtn">Register Now</button>
+</header>
+<main>
+    <section class="hero">
+    <div class="banner">
+        <h1>Code. <span><em>Connect</span>.</em> Create</h1>
+        
+        <p>
+            Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026.Three days of cutting-edge talks, hands-on workshops, and meaningful connections.
+        </p>
+       <button class="bannerbtn">Register Now</button>
+    </div>
+</section>
+<section class="speakers">
+    <h2>Meet the Speakers</h2>
+
+    <div class="speaker-grid">
+
+        <div class="piccard">
+            <img src="./assets/andrej.png" alt="andrej pic">
+            <div class="pic-card-content">
+                <span style="font-weight: 420;color: rgb(66, 66, 224);">AI / ML</span>
+                <h3>Andrei Karpathy</h3>
+                <p>Pretraining team, Anthropic</p>
+            </div>
+        </div>
+
+        <div class="piccard">
+            <img src="./assets/demis.png" alt="demis pic">
+            <div class="pic-card-content">
+                <span style="font-weight: 420;color: rgb(66, 66, 224);">CLOUD & DEVOPS</span>
+                <h3>Demis Hassabis</h3>
+                <p>Co-Founder and CEO, Google DeepMind</p>
+            </div>
+        </div>
+
+        <div class="piccard">
+            <img src="./assets/gary.png" alt="gary pic">
+            <div class="pic-card-content">
+                <span style="font-weight: 420; color: rgb(66, 66, 224);">FRONTEND</span>
+                <h3>Gary Marcus</h3>
+                <p>Staff Engineer, Vercel</p>
+            </div>
+        </div>
+
+        <div class="piccard">
+            <img src="./assets/mustafa.png" alt="musta pic">
+            <div class="pic-card-content">
+                <span style="font-weight: 420;color: rgb(66, 66, 224);">SECURITY</span>
+                <h3>Mustafa Suleyman</h3>
+                <p>CEO of Microsoft AI</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="pricing">
+    <h2>Secure Your Spot</h2>
+    <p class="subtitle">Early-bird pricing ends August 15, 2026.</p>
+
+    <div class="pricing-grid">
+
+    
+        <div class="price-card">
+            <h4>STANDARD</h4>
+            <h1>$399</h1>
+            <p class="small">per person</p>
+<hr>
+            <ul>
+                <li>Access to all 3 conference days</li>
+                <li>48 curated technical talks</li>
+                <li>2 workshop sessions</li>
+                <li>Networking lunch & coffee breaks</li>
+                <li>Conference swag bag</li>
+                <li>Digital recordings (30 days)</li>
+            </ul>
+
+            <button class="btn-out">Get Standard</button>
+        </div>
+
+        
+        <div class="price-card pro">
+            <h4>PRO</h4>
+            <h1>$749</h1>
+            <p class="small">per person</p>
+<hr>
+            <ul>
+                <li>Everything in Standard</li>
+                <li>Unlimited workshop access</li>
+                <li>Speaker meet & greet</li>
+                <li>VIP networking dinner</li>
+                <li>Lifetime recording access</li>
+                <li>1-on-1 mentorship (30 min)</li>
+            </ul>
+
+            <button class="btn">Get Pro</button>
+        </div>
+
+        
+        <div class="price-card">
+            <h4>TEAM</h4>
+            <h1>$5,999</h1>
+            <p class="small">up to 10 people</p>
+<hr>
+            <ul>
+                <li>Everything in Pro (10 seats)</li>
+                <li>Dedicated team lounge access</li>
+                <li>Private workshop booking</li>
+                <li>Company logo on event page</li>
+                <li>Recruitment booth (1 day)</li>
+                <li>Priority customer support</li>
+            </ul>
+
+            <button class="btn-outline">Contact Us</button>
+        </div>
+
+    </div>
+</section>
+<section class="path-section">
+
+  <h2>Choose Your Path</h2>
+  <p>Discover what this conference unlocks for you</p>
+
+  <!-- RADIO BUTTONS (hidden) -->
+  <input type="radio" name="role" id="dev" checked>
+  <input type="radio" name="role" id="founder">
+  <input type="radio" name="role" id="designer">
+
+  <!-- BUTTONS -->
+  <div class="buttons">
+    <label for="dev">👨‍💻 Developer</label>
+    <label for="founder">🚀 Founder</label>
+    <label for="designer">🎨 Designer</label>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="cards">
+
+    <div class="card dev">
+      <h3 style="text-align: center; font-size: larger;">Developer Mode</h3><br>
+      <p>✔ Learn from senior engineers</p>
+      <p>✔ Real-world coding sessions</p>
+      <p>✔ Direct hiring opportunities</p>
+    </div>
+
+    <div class="card founder">
+      <h3 style="text-align: center; font-size: larger;">Founder Mode</h3><br>
+      <p>✔ Pitch to investors</p>
+      <p>✔ Growth secrets from unicorns</p>
+      <p>✔ Build powerful connections</p>
+    </div>
+
+    <div class="card designer">
+      <h3 style="text-align: center; font-size: larger;">Designer Mode</h3><br>
+      <p>✔ UI/UX masterclasses</p>
+      <p>✔ Portfolio feedback</p>
+      <p>✔ Work with real startups</p>
+    </div>
+
+  </div>
+
+  <button class="cta">✨ Secure My Spot</button>
+
+</section>
+</main>
+<footer class="footer">
+
+    <!-- Top Row -->
+    <div class="footer-top">
+        <div class="logo">
+            DevConf
+        </div>
+
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-square-linkedin"></i></a>
+        </div>
+    </div>
+
+    <!-- Divider -->
+    <hr>
+
+    <!-- Bottom -->
+    <div class="footer-bottom">
+        <p>© 2026 DevConf. All rights reserved.</p>
+    </div>
+
+</footer>
+</body>
+</html>
